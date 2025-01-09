@@ -5,17 +5,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --message-user: #4F46E5;
+  --message-assistant: #F3F4F6;
+  --text-primary: #171717;
+  --text-secondary: #6B7280;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --message-user: #6366F1;
+    --message-assistant: #1F2937;
+    --text-primary: #ededed;
+    --text-secondary: #9CA3AF;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
