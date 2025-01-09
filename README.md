@@ -29,8 +29,8 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd [your-repo-name]
+git clone https://github.com/giantflyingegg/Vocalchatbotdem.git
+cd Vocalchatbotdem
 ```
 
 2. Install dependencies:
